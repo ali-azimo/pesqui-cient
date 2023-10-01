@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <title>Pesquisa cientificas</title>
+</head>
+<body>
+    <section class="tutor-container">
+        <div class="tutor-content">
+            <div class="tutor-img">
+                <img src="images/moz.png" alt="">
+                <p></p><a href="index.html">TPCM</a>
+            </div>
+        </div>
+        <div class="tutor-content">
+            <a href="cadastro.html" class="login">Cadastrar</a>
+            <a href="login.html"><i class="fa-solid fa-user"></i></a>
+        </div>
+    </section>
+    
+
+
+    <section class="login-container">
+        <form action="">
+            <h2>Cadastrar</h2>
+
+            <div class="login-content">
+                <label for="">Nome completo</label>
+                <input type="text" name="nome" placeholder="Nome completo" required>
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <div class="login-content">
+                <label for="">Email valido</label>
+                <input type="email" name="email" placeholder="Digite seu email" required>
+                <i class="fa-sharp fa-solid fa-envelope"></i>
+            </div>
+            <div class="login-content">
+                <label for="">Senha</label>
+                <input type="password" name="senha" placeholder="Digite senha" required>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="login-content">
+                <label for="">Repete_Senha</label>
+                <input type="password" name="repete_senha" placeholder="Repte_senha" required>
+                <i class="fa-solid fa-lock-open"></i>
+            </div>
+
+            <div class="condition">
+                <input type="checkbox" id="termos" name="termos" value="ok" required>
+
+                <label for="termos" id="lable">Ao se cadastrar voce concorda com a nossa <a href="#" class="link">Politica de Privacidade</a> e os <a href="#" class="link">Termos de uso</a></label>
+            </div>
+            <button type="submit">Cadastrar</button>
+            <a href="login.html">Já estou cadastrado</a>
+        </form>
+        
+    </section>
+
+
+
+
+
+   <footer>
+        <copy class="direitos">
+            <p> &copy;Todos direitos reservado para TPCM, <span>Ali Azimo</span> Web-Desing</p>
+        </copy>
+   </footer>
+
+   <script src="js/script.js"></script>
+</body>
+</html>

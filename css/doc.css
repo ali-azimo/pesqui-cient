@@ -1,0 +1,142 @@
+.books-container{
+    width: 80%;
+    margin: 50px auto;
+    background-color: #CCC;
+    padding: 20px;
+}
+
+.books-container h2{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.books-container h2::after{
+    position: absolute;
+    content: "";
+    background-color: #12505f;
+    height: 3px;
+    width: 20%;
+    left: 40%;
+    bottom: 15px;
+}
+.books-container h5{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.books-container p{
+    font-size: 17px;
+    color: #12505f;
+    padding-bottom: 50px;
+}
+
+.books-infor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.books-infor a{
+    background-color: #12505f;
+    padding: 8px 15px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: cursive;
+    position: relative;
+    transition: .4s ease;
+}
+.books-infor a:hover::after{
+    position: absolute;
+    content: "Clique aqui";
+    width: 77%;
+    left: 0;
+    top: 0;
+    background-color: #FFF;
+    padding: 8px 15px;
+    color: #12505f;
+}
+
+.input-infor{
+    display: flex;
+    align-items: center;
+}
+.input-infor h6{
+    color: #12505f;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.input-infor input{
+    padding: 10px;
+    outline-color: #FFF;
+    border: #ccc 1px solid;
+    color: #000000;
+}
+
+.lab-content{
+    display: flex;
+    justify-content: space-between;
+    color: #1d1d1d;
+    margin: 50px 0 auto;
+}
+
+.lab-infor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    background-color: #c4c5c5;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.lab-infor:nth-child(1){
+    background-color: #c4c5c5;
+}
+.lab-infor p{
+    padding: 10px;
+}
+.lab-detail{
+    width: 400px;
+}
+.lab-detail:nth-child(1){
+    width: 500px;
+}
+
+.lab-detail a{
+    display: flex;
+    justify-content: flex-end;
+    color: #12505f;
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.count-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.count-content p{
+    font-weight: bold;
+    padding: 0;
+}
+.count-content a{
+    background-color: #FFF;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 7px 15px;
+    margin: 0 9px;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: .5s;
+}
+
+.count-content a:hover{
+    background-color: #12505f;
+}

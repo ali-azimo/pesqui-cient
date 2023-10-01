@@ -1,0 +1,102 @@
+.login-container{
+    box-shadow: #FFF 0px 6px 12px -2px, #FFF 0px 3px 7px -3px;
+    width: 350px;
+    margin: 70px auto;
+}
+
+.login-container form{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+}
+.login-container form h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+.login-container input{
+    width: 100%;
+    padding: 10px 40px;
+    margin-top: 10px;
+    border: 1px solid #CCC;
+    outline: #CCC;
+}
+.login-content{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.login-content i{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    color: #12505f;
+}
+label{
+    font-size: 15px;
+    color: #12505f;
+}
+
+.condition{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.link{
+    color: #00c3ff;
+    text-decoration: underline;
+    font-size: 12px;
+}
+.condition input{
+    margin-right: 10px;
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+    height: 30px;
+    width: 15%;
+    cursor: pointer;
+}
+#lable{
+    display: inline-block;
+    color: #000000;
+    font-size: 13px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+form button{
+    background-color: transparent;
+    text-decoration: overline 2px #12505f;
+    color: #000000;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 0;
+    margin: 15px;
+    transition: .4s;
+}
+
+form button:hover{
+    background-color: #12505f;
+    color: #FFF;
+}
+
+form a{
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+    transition: .5s;
+}
+form a:hover{
+    color: #12505f;
+}
